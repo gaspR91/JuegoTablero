@@ -14,3 +14,15 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/Inicio','InicioController@show');
+
+Route::get('/Registro','RegistroController@show');
+
+Route::get('/Login','LoginController@show');
+
+Route::get('/Nosotros','NosotrosController@show');
+
+Route::get('/PreguntasFrecuentes','PreguntasController@show');
+
+Route::get('/ReglasDeJuego','ReglasDeJuegoController@show');
