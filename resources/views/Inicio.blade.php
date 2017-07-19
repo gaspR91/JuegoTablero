@@ -8,7 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="css/styleMain.css">
 </head>
 <body>
-<div class="container-fluid" id="mainContainerIni">
+<div class="container-fluid" id="mainContainer">
 	<header class="container-fluid" id="mainHeader">
 		<nav class="container" id="mainMenu">
 			<ul class="row" id="menuItems">
