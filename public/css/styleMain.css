@@ -50,7 +50,7 @@
 	color: white;
 	text-transform: bold;
 }
-
+  /* estilos titúlos principales */
 #mainTitleIni{
 	color: white;
 	background-color: #673AB7;
@@ -69,6 +69,11 @@
 }
 
 #mainTitleRe{
+	color: white;
+	background-color: #00897b;
+}
+
+#mainTitleReg{
 	color: white;
 	background-color: #00897b;
 }
@@ -125,6 +130,45 @@
 	color: white;
 	margin-left: 20px;
 	margin-right: 20px;
+}
+
+  /* Estilos de registro */
+
+#registro{
+	background-color: #00897b;
+}
+
+#registro h2{
+	background-color: #004d40;
+	color: white;
+}
+
+#emailPassword{
+	margin-bottom: 20px;
+}
+
+#emailDiv{
+	padding-left: 15px;
+}
+
+#apellidoDiv{
+	padding-left: 15px;
+}
+
+#nombreDiv, #emailDiv{
+	margin-right: 20px;
+}
+
+#nombreApellido, label{
+	margin-right: 10px;
+}
+
+#preguntaSeguridad{
+	margin-bottom: 20px;
+}
+
+#registro label{
+	color: white;
 }
 
 #linkFacebook, #linkTwitter, #linkInstagram{ /* estado inicial del footer mobile first */
