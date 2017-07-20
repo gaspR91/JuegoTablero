@@ -1,10 +1,10 @@
 /* Estilos CSS principal*/
 
 
-#mainContainer{
+#mainContainer{ /* Estilos predefinidos para el contenedor principal de las paginas externas */
 	background-color: #546e7a;
 }
-
+ /* Estilos generales del menu */
 #menuItems{
 	box-shadow: 10px 10px #424242;
 	margin-bottom: 20px;
@@ -51,18 +51,40 @@
 	text-transform: bold;
 }
 
-#imageContainer{
+#mainTitleIni{
+	color: white;
+	background-color: #673AB7;
+	box-shadow: 10px #311b92;
+
+}
+
+#mainTitleNos{
+	color: white;
+	background-color: #fb8c00;
+}
+
+#mainTitlePre{
+	color: white;
+	background-color: #673AB7;
+}
+
+#mainTitleRe{
+	color: white;
+	background-color: #00897b;
+}
+
+#imageContainer{  /* Estilos para la imagen de presentacion del inicio */
 	height: 100px;
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
-
+  /* Estilos para la sección Nosotros */
 #quienesSomos{
 	background-color: #fb8c00;
 }
 
 #quienesSomos h2{
-	background-color: #F57C00;
+	background-color: #e65100;
 	color: white;
 }
 
@@ -72,12 +94,45 @@
 	margin-right: 20px;
 }
 
-#linkFacebook, #linkTwitter, #linkInstagram{
+  /* Estilos de la sección Preguntas Frecuentes */
+
+#PreguntasFrecuentes{
+  	background-color: #673AB7;
+  }
+#PreguntasFrecuentes h2{
+	background-color: #311b92;
+	color: white;
+}
+
+#PreguntasFrecuentes p{
+	color: white;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+  /* Estilos de la sección Reglas de Juego */
+
+#reglasDeJuego{
+	background-color: #00897b;
+}
+
+#reglasDeJuego h2{
+	background-color: #004d40;
+	color: white;
+}
+
+#reglasDeJuego p{
+	color: white;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#linkFacebook, #linkTwitter, #linkInstagram{ /* estado inicial del footer mobile first */
 	display: none;
 }
 
-@media (min-width: 768px) {  
-
+@media (min-width: 768px) {  /* Estilos para tablets en adelante */
+ /* Estilos del footer */
 #facebook, #twitter, #instagram{
 	margin-bottom: 20px;
 }

@@ -42,11 +42,12 @@
 			</ul>
 		</nav>
 	</header>
+	<h1 class="text-center" id="mainTitleNos">Nosotros</h1>
 	<div class="container" id="quienesSomos">
 		<div class="row" id="acerca">
 			<h2>Acerca de Nosotros</h2>
 			<p class="text-justify">
-				Somos una idea en crecimiento, una posibilidad, este nuestro primer proyecto formal desarrollado en principio durante el curso de <strong>desarrollo web full stack de Digital House Buenos Aires Aregentina</strong>, consta de un juego basado en la temática de trivia pero tratando de transcender este concepto ya bastante presente en la web mediante la fusión de otro tipo de juego, un juego de tablero e incluso un componente estratégico importante mediante la toma de desiciones rápidas, consultar la pagina de <a href="#"> Reglas de Juego </a> para mayores detalles sobre toda la jugabilidad.
+				Somos una idea en crecimiento, una posibilidad, este nuestro primer proyecto formal desarrollado en principio durante el curso de desarrollo web full stack de Digital House Buenos Aires Aregentina, consta de un juego basado en la temática de trivia pero tratando de transcender este concepto ya bastante presente en la web mediante la fusión de otro tipo de juego, un juego de tablero e incluso un componente estratégico importante mediante la toma de desiciones rápidas, consultar la pagina de <a href="#"> Reglas de Juego </a> para mayores detalles sobre toda la jugabilidad.
 			</p>
 		</div>
 		<div class="row" id="objetivos">
@@ -68,6 +69,34 @@
 			</p>
 		</div>
 	</div>
+	<footer class="container" id="mainFooter">
+		<ul class="row" id="footerItems">
+			<li class="col-xs-6 col-md-6" id="socialNetworks">
+				<ul class="row" id="socialContainer">
+					<li class="col-xs-6 col-sm-4 col-md-4" id="facebook">
+						<a href="#" id="linkFacebook">
+							Facebook
+						</a>
+					</li>
+					<li class="col-xs-6 col-sm-4 col-md-4" id="twitter">
+						<a href="#" id="linkTwitter">
+							Twitter
+						</a>
+					</li>
+					<li class="col-xs-6 col-sm-4 col-md-4" id="Instagram">
+						<a href="#" id="linkInstagram">
+							Instagram
+						</a>
+					</li>
+				</ul>
+			</li>
+			<li class="col-xs-6 col-sm-6 col-md-6" id="terminosYcondiciones">
+				<div class="row" id="terminos">
+					<a href="#" id="linkTerminos" class="text-right"> Terminos y Condiciones </a>
+				</div>
+			</li>
+		</ul>
+	</footer>
 </div>
 </body>
 </html>
