@@ -171,12 +171,49 @@
 	color: white;
 }
 
+#login{
+	background-color: #c0ca33;
+}
+
+#mainTitleLog{
+	background-color: #827717;
+	color: white;
+}
+
+#loginBox{
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #616161;
+	background-color: #827717;
+	width: 70%;
+	/*padding: 20px;*/ 
+}
+
+#loginBox label{
+	color: white;
+}
+
 #linkFacebook, #linkTwitter, #linkInstagram{ /* estado inicial del footer mobile first */
 	display: none;
 }
 
 @media (min-width: 768px) {  /* Estilos para tablets en adelante */
  /* Estilos del footer */
+#emailLogin, #passLogin{
+	margin-left: 20%;
+}
+
+#emailDiv{
+	margin-left: 2%;
+}
+
+#recordarme, #submit{
+	margin-left: 35%;
+}
+
 #facebook, #twitter, #instagram{
 	margin-bottom: 20px;
 }

@@ -13,30 +13,30 @@
 		<nav class="container" id="mainMenu">
 			<ul class="row" id="menuItems">
 				<li class="col-xs-12 col-sm-2 col-md-2" id="inicioMenu">
-					<a href="Inicio.blade.php">
+					<a href="{{ url('/Inicio') }}">
 						<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
 					</a>
-					<a href="Inicio.blade.php">Inicio</a>
+					<a href="{{ url('/Inicio') }}">Inicio</a>
 				</li>
 				<li class="col-xs-12 col-sm-2 col-md-2" id="registroMenu">
-					<a href="Registro.blade.php"></a>
-					<a href="Registro.blade.php">Registro</a>
+					<a href="{{ url('/Registro') }}"></a>
+					<a href="{{ url('/Registro') }}">Registro</a>
 				</li>
 				<li class="col-xs-12 col-sm-2 col-md-2" id="loginMenu">
-					<a href="Login.blade.php"></a>
-					<a href="Login.blade.php">Login</a>
+					<a href="{{ url('/Login') }}"></a>
+					<a href="{{ url('/Login') }}">Login</a>
 				</li>
 				<li class="col-xs-12 col-sm-2 col-md-2" id="nosotrosMenu">
-					<a href="Nosotros.blade.php"></a>
-					<a href="Nosotros.blade.php">Nosotros</a>
+					<a href="{{ url('/Nosotros') }}"></a>
+					<a href="{{ url('/Nosotros') }}">Nosotros</a>
 				</li>
 				<li class="col-xs-12 col-sm-2 col-md-2" id="preguntasMenu">
-					<a href="PreguntasFrecuentes.blade.php"></a>
-					<a href="PreguntasFrecuentes.blade.php">Preguntas Frecuentes</a>
+					<a href="{{ url('/PreguntasFrecuentes') }}"></a>
+					<a href="{{ url('/PreguntasFrecuentes') }}">Preguntas Frecuentes</a>
 				</li>
 				<li class="col-xs-12 col-sm-2 col-md-2" id="reglasMenu">
-					<a href="ReglasDeJuego.blade.php"></a>
-					<a href="ReglasDeJuego.blade.php">Reglas del Juego</a>
+					<a href="{{ url('/ReglasDeJuego') }}"></a>
+					<a href="{{ url('/ReglasDeJuego') }}">Reglas del Juego</a>
 				</li>
 			</ul>
 		</nav>
