@@ -28,3 +28,5 @@ Route::get('/PreguntasFrecuentes','PreguntasController@show');
 Route::get('/ReglasDeJuego','ReglasDeJuegoController@show');
 
 Route::get('/RegistrarPreguntas','RegistroPreguntasController@show');
+
+Route::get('/LogoImage','LogoImageController@show');

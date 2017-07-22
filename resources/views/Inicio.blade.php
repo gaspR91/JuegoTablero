@@ -43,9 +43,7 @@
 	</header>
 	<h1 class="text-center" id="mainTitleIni">¡Bienvenidos!</h1>
 	<div class="container" id="content">
-		<figure class="row" id="imageContainer">
-			<img src="" id="homeImage">
-		</figure>
+			<img src=" {{asset('storage/img/RoyalBattle.png')}} " id="homeImage" class="image-responsive center-block" width="450px">
 	</div>
 	<footer class="container" id="mainFooter">
 		<ul class="row" id="footerItems">
